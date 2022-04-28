@@ -1,0 +1,278 @@
+<heml>
+  <head>
+<subject>Email is awesome</subject>
+<preview>Learn about all the cool things you can do with email today!</preview>
+<style>
+
+img{
+padding-bottom: 40px;
+padding-top: 40px;
+}
+.small-img{
+padding:
+}
+a{
+color:whitesmoke;
+text-decoration: none;
+}
+
+span{
+border-nottom: solid;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Bodoni MT";
+	color: whitesmoke;
+	margin-top: 0;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+ p {
+text-align: center;
+padding: 30px 40px;
+color: whitesmoke;
+font-family: "Georgia";
+line-height: 1.8;
+}
+
+button{
+background-color: black;
+color: whitesmoke;
+font-family: "Georgia";
+}
+
+block{
+padding: 30px 20px;
+}
+
+.light-heading{
+color:black;
+}
+.light-subheading{
+color:grey;
+}
+.light-p{
+padding-left: 10px;
+color:black;
+}
+
+.footer-p{
+
+text-align: center;
+}
+.footer-h2{
+padding-left: 30px;
+text-align: center;
+}
+
+
+</style>
+
+<font href="https://fonts.googleapis.com/css?family=Muli" />
+
+  </head>
+  <body>
+  
+ 
+  
+<container >
+
+
+
+<row>
+ 
+ 
+ <column>
+<img src="https://drive.google.com/uc?export=view&id=15_b3trGyP7YOM_z3Lk-3Ky2ixJomuAx9" alt="my image" max-width="600px" />
+ </column>
+
+ </row>
+ 
+ <!--SECTION---------------------------------->
+ 
+ <row style='background-color: #006E80'>
+ <column>
+   
+   <h1>Some Heading</h1>
+ 
+ <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. Far far away, behind the word mountains, <br></br> far from the countries.</p>
+
+<block >
+
+<button href="https://heml.io" style="margin: auto;">Visit us!</button>
+ </block>
+ 
+ </column>
+ </row>
+ 
+ <!--SECTION---------------------------------->
+
+ <row >
+ <column>
+   <h4 class='light-subheading'>Subheading</h4>
+   <h2 class='light-heading'>Another Heading</h2>
+   <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+   
+ </column>
+ 
+ </row>
+ 
+ 
+<!--SECTION---------------------------------->
+
+
+ <row style='background-color: #006E80'>
+ <column large='6'  >
+   
+   
+   
+   <img class='small-img' src="https://drive.google.com/uc?export=view&id=1-g9u3G4rL1f0muSFydKJffomPT_jFq_p" alt="my image" max-width="300px" />
+ <h3>Some Heading</h3>
+ 
+
+ <p>Far far away, behind the word mountains, far from the countries </p>
+<block>
+<button href="https://heml.io" style="margin: auto;">Read more</button>
+</block>
+ </column>
+ <column large='6'  >
+   <img class='small-img'  src="https://drive.google.com/uc?export=view&id=1-gNAm7YcpJ4kP5Lnu5pkJPiOjC4Eq5_R" alt="my image" max-width="300px" />
+
+<h3>Some Heading</h3>
+ 
+ <p>Far far away, behind the word mountains, far from the countries </p>
+
+<block>
+<button href="https://heml.io" style="margin: auto;">Read more</button>
+</block>
+ </column>
+ </row>
+ 
+<!--SECTION---------------------------------->
+ 
+ <row>
+   <column>
+      <h4 class='light-subheading'>Subheading</h4>
+   <h2 class='light-heading'>Another Heading</h2>
+   <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+   </column>
+   
+ </row>
+ 
+<!--SECTION---------------------------------->
+  
+   <row style='background-color: #006E80'>
+ <column large='6'  >
+   
+   
+   <img class='small-img' src="https://drive.google.com/uc?export=view&id=17EpB0jv3MSOlpKbu2PTpWH5iZgr7ynXV" alt="my image" max-width="300px" />
+ <h3>Some Heading</h3>
+ 
+
+ <p>Far far away, behind the word mountains, far from the countries</p>
+<block>
+<button href="https://heml.io" style="margin: auto;">Read more</button>
+</block>
+ </column>
+ <column large='6'  >
+  
+   
+   <img class='small-img'  src="https://drive.google.com/uc?export=view&id=1A4sWdGZQCCecLPxHVbvjmUbgj65fUxpb" alt="my image" max-width="300px" />
+
+<h3>Some Heading</h3>
+ 
+ <p>Far far away, behind the word mountains, far from the countries </p>
+
+<block>
+<button href="https://heml.io" style="margin: auto;">Read more</button>
+</block>
+ </column>
+ </row>
+ 
+ <!-- in between the two rows --------------------------------------------------->
+<hr>
+ 
+  <row >
+ <column>
+   <h4 class='light-subheading'>Subheading</h4>
+   <h2 class='light-heading'>Another Heading</h2>
+   <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+   
+ </column>
+ 
+ </row>
+<!-- in between the two rows --------------------------------------------------->
+<hr>
+  
+  <!-- PRODUCT SHOWCASE ----------------------------------->
+  <row>
+    <column>
+     
+      <img class='small-img' src="https://drive.google.com/uc?export=view&id=1A93f5PfscI0ushlbEJY6LPlYz-msUjYA" alt="my image" max-width="300px" />
+    </column>
+    <column>
+      <h2 class='light-heading'>Title</h2>
+      <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+    </column>
+  </row>
+<!-- in between the two rows --------------------------------------------------->
+<hr>
+  <row>
+    <column>
+      <h2 class='light-heading'>Title</h2>
+      <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+    </column>
+    <column>
+      
+      <img class='small-img' src="https://drive.google.com/uc?export=view&id=15WuXm-TITbh6HBrscwS7TkAPgA_8wQxi" alt="my image" max-width="300px" />
+    </column>
+  </row>
+<!-- in between the two rows -->
+<hr>
+  <row>
+    <column>
+    
+      <img class='small-img' src="https://drive.google.com/uc?export=view&id=1wGvSKQ6Z9aOhlZ0S06koWZcGeMwlVZWj" alt="my image" max-width="300px" />
+    </column>
+    <column>
+      <h2 class='light-heading'>Title</h2>
+      <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+      </column>
+  </row>
+
+<!-- in between the two rows -->
+<hr>
+  <row>
+    <column>
+      <h2 class='light-heading'>Title</h2>
+      <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+    </column>
+    <column>
+      
+      <img class='small-img' src="https://drive.google.com/uc?export=view&id=1oqxbPu7Gww972_RS2uY1NG0J9L4xiQgK" alt="my image" max-width="300px" />
+    </column>
+  </row>
+   <!-- in between the two rows -->
+<hr>
+  <row>
+    <column>
+      
+      <img class='small-img' src="https://drive.google.com/uc?export=view&id=1ip1pgK6QRsfhH4HDGqGpdp67CuvGpqY9" alt="my image" max-width="300px" />
+    </column>
+    <column>
+      <h2 class='light-heading'>Title</h2>
+      <p class='light-p'>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+    </column>
+  </row>
+  
+  
+<!--FOOTER SECTION--------------------------------------------------------->
+  
+  
+  
+ 
+ 
+</container>
+  </body>
+</heml>

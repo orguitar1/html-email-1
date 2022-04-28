@@ -1,95 +1,361 @@
-<DOCTYPE HTml>
-  <html>
-    <head>
-      <title> </title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quattro</title>
+    <!-- GOOGLE FONTS ----------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
 
-      <style>
-        .email-background {
-          background-color: #03dac6;
-          font-family: sans-serif;
-          padding: 20px 5px 50px 5px;
-          width: 100%;
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Lato:300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- font-family: 'Lato', sans-serif;
+font-family: 'Yellowtail', cursive; -->
+
+    <!-- Arial
+Verdana
+Georgia
+Times New Roman
+Courier -->
+
+    <!-- CSS Reset : BEGIN -->
+
+    <style>
+      html,
+      body {
+        margin: 0 auto !important;
+        padding: 0 !important;
+        height: 100% !important;
+        width: 100% !important;
+        background: whitesmoke;
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      * {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt !important;
+        mso-table-rspace: 0pt !important;
+      }
+      table {
+        border-spacing: 0 !important;
+        border-collapse: collapse !important;
+        table-layout: fixed !important;
+        margin: 0 auto !important;
+      }
+
+      /* What it does: Uses a better rendering method when resizing images in IE. */
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+      a {
+        text-decoration: none;
+      }
+      *[x-apple-data-detectors],  /* iOS */
+.unstyle-auto-detected-links *,
+.aBn {
+        border-bottom: 0 !important;
+        cursor: default !important;
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      .a6S {
+        display: none !important;
+        opacity: 0.01 !important;
+      }
+
+      /* What it does: Prevents Gmail from changing the text color in conversation threads. */
+      .im {
+        color: inherit !important;
+      }
+      /* If the above doesn't work, add a .g-img class to any image in question. */
+      img.g-img + div {
+        display: none !important;
+      }
+
+      /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+      /* Create one of these media queries for each additional viewport size you'd like to fix */
+
+      /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+      @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+        u ~ div .email-container {
+          min-width: 320px !important;
         }
-
-        .email-container {
-          background-color: #ffffff;
-          max-width: 600px;
-          margin: 0 auto;
-          text-align: center;
-          padding-bottom: 40px;
-          border-radius: 15px;
-          width: 100%;
+      }
+      /* iPhone 6, 6S, 7, 8, and X */
+      @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+        u ~ div .email-container {
+          min-width: 375px !important;
         }
-
-        p {
-          padding: 0px 20px 20px 20px;
+      }
+      /* iPhone 6+, 7+, and 8+ */
+      @media only screen and (min-device-width: 414px) {
+        u ~ div .email-container {
+          min-width: 414px !important;
         }
+      }
+    </style>
 
-        .cta a {
-          background-color: #ef476f;
-          color: whitesmoke;
-          padding: 15px 20px;
-          width: 100px;
-          margin: 0 auto;
-          border-radius: 15px;
-          font-size: 16px;
-        }
+    <!-- CSS Reset : END -->
 
-        img {
-          width: 90%;
-          max-width: 500px;
-          padding: 5px 5px 5px 5px;
+    <!-- Progressive Enhancements : BEGIN -->
 
-          border-top-left-radius: 15px;
-          border-top-right-radius: 15px;
-          margin-bottom: 30px;
-        }
+    <style>
+      h2 {
+        font-family: "Georgia";
+        font-size: 2rem;
+        padding: 10px 10px;
+      }
+      .email-background {
+        background-color: #c3bb00;
+        font-family: sans-serif;
+        padding: 20px 5px 50px 5px;
+        width: 100%;
+      }
+      .email-container {
+        background-color: #ffffff;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 40px;
+        border-radius: 15px;
+        width: 100%;
+      }
+      p {
+        padding: 25px;
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .cta a {
+        background-color: whitesmoke;
+        color: black;
+        padding: 15px 20px;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: bolder;
+      }
+      img {
+        width: 90%;
+        max-width: 500px;
+        padding: 5px 5px 5px 5px;
 
-        .footer,
-        a {
-          margin: 0 auto;
-          text-align: center;
-          color: #03dac6;
-          font-size: 10px;
-          padding: 15px 0px;
-          text-decoration: none;
-          color: black;
-        }
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+      .footer,
+      a {
+        margin: 20px auto;
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+        padding: 15px 0px;
+        text-decoration: none;
+        color: black;
+      }
 
-        .footer {
-          background-color: #03dac6;
-        }
-      </style>
-    </head>
+      .footer {
+        background-color: white;
+      }
 
-    <body>
-      <div class="email-background">
-        <div class="email-container">
-          <!-- Picture placed on Gdrive-->
+      .hero {
+        background-color: #373000;
+        color: whitesmoke;
+      }
+      .subheading-light {
+        margin-bottom: 20px !important;
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgba(0, 0, 0, 0.4);
+        position: relative;
+      }
+      .subheading-dark {
+        margin-bottom: 20px !important;
+        display: inline-block;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        position: relative;
+      }
+      .subheading-light::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: black;
+        margin: 0 auto;
+      }
+      .subheading-dark::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: whitesmoke;
+        margin: 0 auto;
+      }
+      .text-container {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    </style>
+  </head>
+  <body
+    width="100%"
+    style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly"
+  >
+    <div style="max-width: 600px; margin: 0 auto" class="email-container">
+      <table class="email-container">
+        <!-- BODY TABLE START -->
+        <tr>
+          <!--  BODY TABLE ROW 1 START-->
+          <td>
+            <div style="padding: 1em 2.5em; text-align: center">
+              <img
+                src="https://drive.google.com/uc?export=view&id=15_b3trGyP7YOM_z3Lk-3Ky2ixJomuAx9"
+              />
+              <!-- LOGO IMAGE -->
+            </div>
+          </td>
+        </tr>
+        <!--  BODY TABLE ROW 1 END-->
 
-          <!-- https://drive.google.com/file/d/15_b3trGyP7YOM_z3Lk-3Ky2ixJomuAx9/view?usp=sharing -->
+        <tr>
+          <!--  BODY TABLE ROW 2 START-->
+          <td valign="middle" class="hero" style="width: 600px; height: 400px">
+            <table>
+              <tr>
+                <td>
+                  <div>
+                    <h2>Lorem ipsum dolor &amp; sit amet consectetur</h2>
+                    <p>
+                      A small river named Duden flows by their place and
+                      supplies it with the necessary regelialia. It is a
+                      paradisematic country, in which roasted parts of sentences
+                      fly into your mouth.
+                    </p>
+                    <p class="cta">
+                      <a href="#">Visit us!</a>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--  BODY TABLE ROW 2 END-->
 
-          <img
-            src="https://drive.google.com/uc?export=view&id=15_b3trGyP7YOM_z3Lk-3Ky2ixJomuAx9"
-          />
+        <tr>
+          <!--  BODY TABLE ROW 3 START-->
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <div class="text-container">
+                    <span class="subheading-light">Welcome</span>
+                    <h2>Welcome To RestoBar</h2>
+                    <p>
+                      A small river named Duden flows by their place and
+                      supplies it with the necessary regelialia. It is a
+                      paradisematic country, in which roasted parts of sentences
+                      fly into your mouth.
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--  BODY TABLE ROW 3 END-->
+        <tr>
+          <!--  BODY TABLE ROW 4 START-->
+          <td class="hero">
+            <div class="text-container">
+              <span class="subheading-dark">Services</span>
+              <h2>Our Services</h2>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td>
+                        <img src="img/tools1.jpg" alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h3>Healthy Foods</h3>
+                        <p>
+                          Far far away, behind the word mountains, far from the
+                          countries
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td>
+                        <img src="img/tools2.jpg" alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h3>Healthy Foods</h3>
+                        <p>
+                          Far far away, behind the word mountains, far from the
+                          countries
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--  BODY TABLE ROW 4 END-->
 
-          <!-- Picture placed on other hosting 
-
-                <img src="https://panel.hostland.ru/fm/php/connector.php?cmd=file&target=15_b3trGyP7YOM_z3Lk-3Ky2ixJomuAx9">  -->
-
-          <h2>Diseño de mobiliario</h2>
-          <p>Permitenos ayudarte a decorar tu vida!</p>
-          <div class="cta">
-            <a href="https://orguitar1.github.io/Quattro-MaderaStudio/"
-              >Visitanos!</a
-            >
-          </div>
-        </div>
-
-        <div class="footer">
-          <a href="">Visit us</a> | <a href="">Unsubscribe</a>
-        </div>
-      </div>
-    </body>
-  </html></DOCTYPE
->
+        <tr>
+          <!--  BODY TABLE ROW 5 START-->
+          <td></td>
+        </tr>
+        <!--  BODY TABLE ROW 5 END-->
+      </table>
+      <!-- BODY TABLE END -->
+    </div>
+  </body>
+</html>
